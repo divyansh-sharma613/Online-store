@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Urban Cart</title>
+<meta name="description" content="Urban Cart: everyday tech, delivered fast.">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <b>🛍️ Urban Cart</b>
+  <nav>
+    <a href="#shop">Shop</a>
+    <a href="#cart-section">🛒 Cart (<span id="cartCount">0</span>)</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Everyday tech, delivered fast.</h1>
+  <p>Shop audio, wearables and accessories. Add to cart and checkout in seconds.</p>
+  <a class="btn" href="#shop">Shop now</a>
+</section>
+
+<!-- Products: buttons aur cards JavaScript se bharte hain -->
+<section id="shop">
+  <h2>Products</h2>
+  <div class="tabs" id="tabs"></div>
+  <div class="cards" id="grid"></div>
+</section>
+
+<!-- Cart -->
+<section id="cart-section">
+  <h2>Your cart</h2>
+  <div class="cart" id="cartBox"></div>
+</section>
+
+<footer>Demo project by Divyansh Sharma</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
